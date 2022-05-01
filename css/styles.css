@@ -20,6 +20,7 @@ a {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -50,24 +51,27 @@ a {
 
 .header-nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
 .header-nav-items {
   display: flex;
   justify-content: space-between;
-  gap: 93px;
+  align-items: center;
 }
 
 .header-list {
   display: flex;
-  gap: 50px;
+  margin-left: 93px;
+}
+
+.header-item {
+  margin-right: 50px;
 }
 
 .header-contacts {
   display: flex;
-  gap: 50px;
 }
 
 .header-contacts a {
@@ -91,6 +95,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-left: 50px;
 }
 
 .header-tel {
@@ -101,6 +106,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  margin-left: 50px;
 }
 
 .header-btn {
@@ -158,7 +164,9 @@ a {
 }
 
 /*-------------ABOUT---------------------------*/
-
+.about {
+  padding-top: 94px;
+}
 .about-list {
   display: flex;
   gap: 30px;
@@ -239,7 +247,6 @@ a {
   display: flex;
   /* gap: 30px; */
   margin-left: -30px;
-  padding: 0 15px;
 }
 
 .team-list-item {
@@ -254,7 +261,8 @@ a {
 }
 
 .team-description {
-  padding: 30px 59px;
+  padding: 30px 0;
+  text-align: center;
 }
 
 .team-name {
@@ -288,7 +296,7 @@ a {
 }
 
 .contact-list {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .contact-list-item,
@@ -300,6 +308,7 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: 0.5s;
+  margin-bottom: 9px;
 }
 
 .contact-list-item,
@@ -352,8 +361,6 @@ a {
   flex-wrap: wrap;
   /* gap: 30px; */
   margin-left: -30px;
-  margin-bottom: -30px;
-  padding: 0 15px;
 }
 
 .portfolio-list-item {
